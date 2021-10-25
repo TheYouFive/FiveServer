@@ -2,6 +2,7 @@
   "name": "fiveserver",
   "version": "1.0.0",
   "private": true,
+  "main": "index.js",
   "engines": {
     "node": "14.17.6"
   },
@@ -20,9 +21,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
