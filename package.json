@@ -4,9 +4,13 @@
   "private": true,
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.17.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "webpack"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
