@@ -45,5 +45,8 @@
   },
   "optionalDependencies": {
     "fsevents": "*"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
   }
 }
